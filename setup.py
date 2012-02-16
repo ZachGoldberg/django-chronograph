@@ -70,7 +70,7 @@ setup(
     description='Django chronograph application.',
     author='Weston Nielson',
     author_email='wnielson@gmail.com',
-    packages = packages,
+    packages = find_packages(),
     data_files = data_files,
     classifiers=[
         'Development Status :: 3 - Alpha',
