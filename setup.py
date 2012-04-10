@@ -49,7 +49,6 @@ setup(
     author='Weston Nielson',
     author_email='wnielson@gmail.com',
     packages = find_packages(),
-    data_files = data_files,
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
