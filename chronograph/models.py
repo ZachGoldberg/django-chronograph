@@ -42,7 +42,7 @@ class Job(models.Model):
     args = models.CharField(_("args"), max_length=200, blank=True,
         help_text=_("Space separated list; e.g: arg1 option1=True"))
     disabled = models.BooleanField(default=False, help_text=_('If checked this job will never run.'))
-    next_run = models.DateTimeField(_("next run"), blank=True, null=True, help_text=_("If you don't set this it will be determined automatically"))
+    next_run = models.DateTimeField(_("next run"), blank=True, null=True, help_text=_("This time is in UTC. If you don't set this it will be determined automatically"))
     last_run = models.DateTimeField(_("last run"), editable=False, blank=True, null=True)
     is_running = models.BooleanField(default=False, editable=False)
     
