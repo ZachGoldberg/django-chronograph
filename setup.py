@@ -44,7 +44,7 @@ for dirpath, dirnames, filenames in os.walk(src_dir):
 
 setup(
     name=app_name,
-    version="1.0.0.1",
+    version="1.0.0.2",
     description='Django chronograph application.',
     author='Weston Nielson',
     author_email='wnielson@gmail.com',
