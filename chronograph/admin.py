@@ -4,7 +4,7 @@ from django.db import models
 from django import forms
 from django.utils.translation import ungettext, ugettext_lazy as _
 from django.http import HttpResponseRedirect, Http404
-from django.conf.urls.defaults import patterns, url
+from django.conf.urls import patterns, url
 from django.utils.safestring import mark_safe
 from django.forms.util import flatatt
 from django.utils.html import escape
